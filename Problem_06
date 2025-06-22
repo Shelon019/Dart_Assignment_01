@@ -1,0 +1,7 @@
+import 'dart:io';
+
+void main() {
+  String? First_name = stdin.readLineSync();
+  String? Last_name = stdin.readLineSync();
+  print("$First_name $Last_name");
+}
